@@ -2,7 +2,9 @@ import React from 'react';
 import logo from './tesla-black-logo-circle.png';
 import './App.css';
 import Tesla from './Tesla'
-
+import Audi from './Audi'
+import Benz from './Benz'
+ 
 function App() {
   return (
     <div className="App">
@@ -19,6 +21,8 @@ function App() {
         </a>
       </header>
       <Tesla />
+      <Audi />
+      <Benz />
     </div>
   );
 }

@@ -1,4 +1,4 @@
-import React, {Component } from 'react'
+import React, { Component } from 'react'
 import modelX from './model-x.jpeg'
 
 class Tesla extends Component {
@@ -7,8 +7,7 @@ class Tesla extends Component {
             <div>
                 <h1>Tesla</h1>
                 <img src={modelX} alt='Model X'></img>
-                <p>Model: Model X</p>
-                
+                <p>Model: Model X</p>                
             </div>
         )
     }
